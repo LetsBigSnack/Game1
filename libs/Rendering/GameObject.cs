@@ -62,7 +62,23 @@ public class GameObject : IMovement
         return _prevPosX;
     }
 
-    public void Move(int dx, int dy) {
+    public void SetPrevPosX(int newPrevPosX){
+        this._prevPosX = newPrevPosX;
+    }
+
+    public void SetPrevPosY(int newPrevPosY){
+        this._prevPosY = newPrevPosY;
+    }
+
+    public void SetPosX(int PosX){
+        this._posX = PosX;
+    }
+
+    public void SetPosY(int PosY){
+        this._posY = PosY;
+    }
+
+    public virtual void Move(int dx, int dy) {
         _prevPosX = _posX;
         _prevPosY = _posY;
         _posX += dx;

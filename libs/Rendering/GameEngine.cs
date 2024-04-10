@@ -1,5 +1,6 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using System.Text.Json.Nodes;
+using System.Text;
 
 namespace libs;
 
@@ -44,6 +45,18 @@ public static class GameEngine
                 case 1:
                     newObj = gameObject.ToObject<King>();
                     break;
+                    case 2:
+                    newObj = gameObject.ToObject<Knight>();
+                    break;
+                    case 3:
+                    newObj = gameObject.ToObject<Bisoph>();
+                    break;
+                    case 4:
+                    newObj = gameObject.ToObject<Rook>();
+                    break;
+                    case 5:
+                    newObj = gameObject.ToObject<Pawn>();
+                    break;
             }
                         
             AddGameObject(newObj);
@@ -52,6 +65,7 @@ public static class GameEngine
 
     public static void Render() {
         //Clean the map
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.Clear();
 
         _focusedObject = gameObjects[0];
@@ -84,7 +98,7 @@ public static class GameEngine
     }
 
     private static void DrawObject(GameObject gameObject){
-        
+
         Console.ResetColor();
 
         if(gameObject != null)

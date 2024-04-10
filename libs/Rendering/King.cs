@@ -7,4 +7,12 @@ public class King : GameObject {
         this.CharRepresentation = '♚';
         this.Color = ConsoleColor.DarkGreen;
     }
+
+        public override void Move(int dx, int dy) {
+
+        SetPrevPosX(this.PosX);
+        SetPrevPosY(this.PosY);
+        this.PosX += dx*2;
+        this.PosY += dy*2;
+    }
 }

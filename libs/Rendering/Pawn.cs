@@ -1,9 +1,11 @@
 namespace libs;
 
-public class Queen : GameObject {
-    public Queen () : base() {
-        this.Type = GameObjectType.Queen;
-        this.CharRepresentation = '♕';
+public class Pawn : GameObject {
+
+    public Pawn () : base(){
+        this.Type = GameObjectType.Pawn;
+        this.CharRepresentation = '♙';
+        this.Color = ConsoleColor.Black;
     }
 
         public override void Move(int dx, int dy) {
