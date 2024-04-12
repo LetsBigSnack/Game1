@@ -4,6 +4,6 @@ public enum GameObjectType
   King,
   Knight,
   Rook,
-  Bisoph,
+  Bishop,
   Pawn
 }

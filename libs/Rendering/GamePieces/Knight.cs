@@ -8,7 +8,7 @@ public class Knight : GameObject {
         this.Color = ConsoleColor.Red;
     }
 
-        public override void Move(int dx, int dy) {
+    public override void Move(int dx, int dy) {
 
         SetPrevPosX(this.PosX);
         SetPrevPosY(this.PosY);

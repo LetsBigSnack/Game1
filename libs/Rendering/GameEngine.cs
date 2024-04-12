@@ -49,7 +49,7 @@ public static class GameEngine
                     newObj = gameObject.ToObject<Knight>();
                     break;
                     case 3:
-                    newObj = gameObject.ToObject<Bisoph>();
+                    newObj = gameObject.ToObject<Bishop>();
                     break;
                     case 4:
                     newObj = gameObject.ToObject<Rook>();

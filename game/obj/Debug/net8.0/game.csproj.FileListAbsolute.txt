@@ -31,9 +31,9 @@ C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.AssemblyInfoInp
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.AssemblyInfo.cs
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.csproj.CoreCompileInputs.cache
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.sourcelink.json
-C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.csproj.Up2Date
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.dll
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\refint\game.dll
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.pdb
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.genruntimeconfig.cache
 C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\ref\game.dll
+C:\Users\davku\Documents\GitHub\Game1\game\obj\Debug\net8.0\game.csproj.CopyComplete
